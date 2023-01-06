@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner {
+    background-image: url("/images/banner/banner3.png");
+    background-color: #cccccc;
+    height: 600px;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+
+}
+
+.banner-txt {
+    text-align: right;
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    right: 10%;
+    transform: translate(-10%, -100%);
+    color: white;
+
+
+}
+
+.banner-heading-txt {
+    font-weight: 660;
+    font-size: 55px;
+}
+
+.banner-descrip {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.primary-btn {
+    color: #FFFFFF;
+    background-color: orangered;
+    padding: 10px 20px;
+    font-weight: 800;
+    border-radius: 3px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 15px;
+    
+
+}
