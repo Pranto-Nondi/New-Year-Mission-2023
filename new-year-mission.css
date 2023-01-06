@@ -60,8 +60,9 @@
 /* main person part */
 .Person_Container {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     align-items: center;
+
 }
 
 
@@ -77,11 +78,11 @@
 }
 
 .descrip {
-  
-    margin-top:350px;
+
+    margin-top: 350px;
     width: 700px;
     height: 500px;
-   
+
 }
 
 .person-title {
@@ -95,8 +96,8 @@
     font-size: 16px;
     color: #444343;
     margin-top: 20px;
-   
-    
+
+
 }
 
 .descrip-check {
@@ -105,4 +106,41 @@
 
 .check {
     margin: 5px 0;
+}
+
+/* my plans part started */
+.plans-container {}
+
+.plans {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 300px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.plan {
+    margin-left: 60px;
+    text-align: center;
+}
+
+.plam-tittle {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.plan-descrip {
+
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.plan-heading {}
+
+.plan-heading h1 {
+    margin-left: 600px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 40px;
 }
