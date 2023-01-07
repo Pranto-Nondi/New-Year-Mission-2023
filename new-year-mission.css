@@ -208,7 +208,7 @@ img {
     justify-content: center;
     align-items: center;
     gap: 20px;
-  
+
 }
 
 .container:hover img {
@@ -223,7 +223,78 @@ img {
 .extra-part-heading {}
 
 .extra-part-title {
-    font-weight:800;
+    font-weight: 800;
     font-size: 35px;
-    
+
+}
+
+/* footer part */
+.footer-container {
+    background-color: #151414;
+    width: 100%;
+    height: 450px;
+    margin-top: 130px;
+    display: flex;
+
+}
+
+.footer-txt-container {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.footer-txt-color-container {
+    color: whitesmoke;
+    padding: 10px 0;
+}
+
+.footer-txt-color-container h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.footer-icon {
+    width: 45px;
+    height: 39px;
+    border-radius: 1px;
+
+}
+
+.footer-descripe {
+    font-weight: 400;
+    font-size: 15px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.footer-mail {
+    margin-bottom: 5px;
+}
+
+.footer-icon-container {
+    display: flex;
+}
+
+.subscribe-container {
+    margin-top: 130px;
+    margin-right: 150px;
+    padding: 15px 0;
+
+}
+
+.subscribe-title {
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.input-field {
+    width: 325px;
+    height: 40px;
+    margin: 10px 0;
+}
+
+.subscribe-btn-design {
+    background-color: #005FAC;
+    color: whitesmoke;
 }
